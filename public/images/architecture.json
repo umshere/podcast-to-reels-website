@@ -1,0 +1,98 @@
+{
+  "name": "architecture-diagram",
+  "width": 800,
+  "height": 600,
+  "nodes": [
+    {
+      "id": "youtube",
+      "label": "YouTube URL",
+      "x": 100,
+      "y": 300,
+      "type": "input"
+    },
+    {
+      "id": "downloader",
+      "label": "Downloader Module",
+      "x": 250,
+      "y": 300,
+      "type": "module"
+    },
+    {
+      "id": "audio",
+      "label": "Audio File",
+      "x": 400,
+      "y": 200,
+      "type": "data"
+    },
+    {
+      "id": "transcriber",
+      "label": "Transcriber Module",
+      "x": 550,
+      "y": 200,
+      "type": "module"
+    },
+    {
+      "id": "transcript",
+      "label": "Transcript JSON",
+      "x": 400,
+      "y": 300,
+      "type": "data"
+    },
+    {
+      "id": "splitter",
+      "label": "Scene Splitter Module",
+      "x": 550,
+      "y": 300,
+      "type": "module"
+    },
+    {
+      "id": "scenes",
+      "label": "Scene Chunks with Prompts",
+      "x": 400,
+      "y": 400,
+      "type": "data"
+    },
+    {
+      "id": "generator",
+      "label": "Image Generator Module",
+      "x": 550,
+      "y": 400,
+      "type": "module"
+    },
+    {
+      "id": "images",
+      "label": "Generated Images",
+      "x": 400,
+      "y": 500,
+      "type": "data"
+    },
+    {
+      "id": "composer",
+      "label": "Video Composer Module",
+      "x": 700,
+      "y": 300,
+      "type": "module"
+    },
+    {
+      "id": "video",
+      "label": "Final Video Reel",
+      "x": 850,
+      "y": 300,
+      "type": "output"
+    }
+  ],
+  "edges": [
+    { "from": "youtube", "to": "downloader" },
+    { "from": "downloader", "to": "audio" },
+    { "from": "audio", "to": "transcriber" },
+    { "from": "transcriber", "to": "transcript" },
+    { "from": "transcript", "to": "splitter" },
+    { "from": "splitter", "to": "scenes" },
+    { "from": "scenes", "to": "generator" },
+    { "from": "generator", "to": "images" },
+    { "from": "audio", "to": "composer" },
+    { "from": "scenes", "to": "composer" },
+    { "from": "images", "to": "composer" },
+    { "from": "composer", "to": "video" }
+  ]
+}
