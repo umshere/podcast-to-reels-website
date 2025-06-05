@@ -31,18 +31,20 @@ This project offers an efficient solution for content creators to transform long
 
 ### Prerequisites
 
-- Node.js 16+ 
+- Node.js 16+
 - npm or yarn
 
 ### Installation
 
 1. Clone the repository:
+
    ```
    git clone https://github.com/umshere/podcast-to-reels-website.git
    cd podcast-to-reels-website
    ```
 
 2. Install dependencies:
+
    ```
    npm install
    # or
@@ -50,6 +52,7 @@ This project offers an efficient solution for content creators to transform long
    ```
 
 3. Start the development server:
+
    ```
    npm run dev
    # or
