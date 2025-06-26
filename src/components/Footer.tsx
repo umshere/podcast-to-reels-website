@@ -21,7 +21,7 @@ const Footer = () => {
             <a href="#demo" className="text-gray-400 hover:text-white transition-colors">Demo</a>
             <a href="#docs" className="text-gray-400 hover:text-white transition-colors">Documentation</a>
             <a 
-              href="https://github.com/yourusername/podcast-to-reels" 
+              href="https://github.com/umshere/podcast-to-reels" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"

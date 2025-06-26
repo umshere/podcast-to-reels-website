@@ -74,7 +74,7 @@ const Demo = () => {
         
         <div className="mt-16 text-center">
           <a 
-            href="https://github.com/yourusername/podcast-to-reels" 
+            href="https://github.com/umshere/podcast-to-reels" 
             target="_blank" 
             rel="noopener noreferrer"
             className="px-8 py-3 bg-gray-700 hover:bg-gray-600 rounded-lg font-medium transition-colors inline-block"

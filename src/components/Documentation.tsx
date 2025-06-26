@@ -16,7 +16,7 @@ const Documentation = () => {
 ## Using pip
 \`\`\`bash
 # Clone the repository
-git clone https://github.com/yourusername/podcast-to-reels.git
+git clone https://github.com/umshere/podcast-to-reels.git
 cd podcast-to-reels
 
 # Install dependencies
@@ -136,7 +136,7 @@ The pipeline is designed to keep cloud costs under $0.25 per run:
             For complete documentation, please refer to the GitHub repository.
           </p>
           <a 
-            href="https://github.com/yourusername/podcast-to-reels#readme" 
+            href="https://github.com/umshere/podcast-to-reels#readme" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-purple-400 hover:text-purple-300 underline"

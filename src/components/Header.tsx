@@ -21,7 +21,7 @@ const Header = () => {
             <li><a href="#docs" className="hover:text-purple-400 transition-colors">Docs</a></li>
             <li>
               <a 
-                href="https://github.com/yourusername/podcast-to-reels" 
+                href="https://github.com/umshere/podcast-to-reels" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center space-x-1 hover:text-purple-400 transition-colors"
